@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a backend project",
   "main": "index.js",
+  "module":"type",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
