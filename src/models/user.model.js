@@ -42,17 +42,6 @@ const userSchema = new Schema({
         type: String,  
         required: [true,"Password is required"],
         minlength: 6
-    }, 
-    refreshToken: {
-        type: String,
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    },
-    updatedAt: {
-        type: Date,
-        default: Date.now
     }
 }, 
 {
