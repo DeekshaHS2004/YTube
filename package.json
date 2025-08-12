@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a backend project",
   "main": "index.js",
-  "module":"type",
+  "module": "type",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
